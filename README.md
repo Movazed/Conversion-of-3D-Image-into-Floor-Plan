@@ -4,6 +4,13 @@
 
 This project provides a Python script to convert a top-down 3D image into a 2D floor plan using OpenCV. The script processes the image to detect edges, find contours, and draw the floor plan.
 
+The script will generate and save the following images in the same directory as the input image:
+
+Original image
+Preprocessed image (blurred)
+Edge-detected image
+Final floor plan
+
 ## Requirements
 
 - Python 3.x
@@ -21,9 +28,3 @@ cd 3d-to-floor-plan
 
 image_path = 'D:\\Projects\\workspace\\3d to plain using CV\\samples\\img_1.jpg'
 
-The script will generate and save the following images in the same directory as the input image:
-
-Original image
-Preprocessed image (blurred)
-Edge-detected image
-Final floor plan
