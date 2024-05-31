@@ -21,3 +21,9 @@ cd 3d-to-floor-plan
 
 image_path = 'D:\\Projects\\workspace\\3d to plain using CV\\samples\\img_1.jpg'
 
+The script will generate and save the following images in the same directory as the input image:
+
+Original image
+Preprocessed image (blurred)
+Edge-detected image
+Final floor plan
